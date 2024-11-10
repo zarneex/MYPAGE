@@ -1,0 +1,134 @@
+
+.active1{
+     background-color: yellow;
+}
+
+.darkgray{
+    background-color: #6e6e6e;
+    border: 2px solid #000; 
+}
+
+.image{
+    margin: 16px 0;
+    padding: 1px 3px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.scaleimg{
+    display: block;
+    margin: auto;
+    max-width: 30%; 
+    height: auto;
+    border-radius: 30px;
+}
+
+.about_me_img{
+    float: right; 
+    margin-right: 20px;
+    max-width: 30%; 
+    height: auto;
+}
+.about_me_text{
+    float: right; 
+    margin-right: 20px;
+    font-size: 24px;
+    clear: right;
+}
+
+.scalegif{
+    display: block;
+    margin: auto;
+    max-width: 70%; 
+    height: auto;
+    border-radius: 30px;
+}
+
+.name0{
+    text-align: center;
+    color: white;
+}
+
+.name1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 45px;
+}
+
+.name1 li{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.name2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.name3{
+    font-size: 24px;
+}
+
+.bkcl{
+    background-color: #808080;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgb(134, 3, 3);
+}
+
+.nav-link.active1 {
+    color: #ff0000;
+}
+
+.positionfixed{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 0px;
+}
+
+.back1{
+    border-color: aqua;
+}
+
+.out{
+    margin: 20px;
+    padding: 10px;
+}
+
+a{
+    color: darkblue;
+}
+
+.hilighted-word{
+    color: brown;
+}
+
+li:target{
+    color: lightgoldenrodyellow;
+    scroll-margin-top: 50px;
+}
+
+/* Адаптация для мобильных устройств */
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        flex: 1 1 100%;
+    }
+}
