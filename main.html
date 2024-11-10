@@ -1,1 +1,124 @@
-
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Главная</title>
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+        crossorigin="anonymous"
+    />
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" 
+    />
+    <link rel="stylesheet" href="https://kaiverx.github.io/static_site_2/static/main.css">
+</head>
+<body class="bkcl">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg blue positionfixed">
+            <button onclick="goBack()" class="blue nav-link back1">Назад</button>
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active1" aria-current="page" href="https://kaiverx.github.io/static_site_2/">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="https://kaiverx.github.io/static_site_2/Kayn">Kayn</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="https://kaiverx.github.io/static_site_2/Malzahar">Malzahar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="https://kaiverx.github.io/static_site_2/Nunu">Nunu and Willump</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="https://kaiverx.github.io/static_site_2/glossary">Глоссарий League of Legend</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="https://kaiverx.github.io/static_site_2/about_me">Сведения об авторе</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <h3><b>Главная</b></h3>
+        <div class="font">
+            <h1 class="text1">Герои League of Legend</h1>
+            <div class="row mb-2">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <figure>
+                                <img src="https://kaiverx.github.io/static_site_2/static/Kayn/Kayn_0.jpg" class="d-block w-100 image" alt="не найдено">
+                                <figcaption class="text3"><div><a href="https://kaiverx.github.io/static_site_2/Kayn">Kayn</a></div></figcaption>
+                            </figure>
+                        </div>
+                        <div class="carousel-item">
+                            <figure>
+                                <img src="https://kaiverx.github.io/static_site_2/static/Malzahar/Malzahar_0.jpg" class="d-block w-100 image" alt="не найдено">
+                                <figcaption class="text3"><div><a href="https://kaiverx.github.io/static_site_2/Malzahar">Malzahar</a></div></figcaption>
+                            </figure>
+                        </div>
+                        <div class="carousel-item">
+                            <figure>
+                                <img src="https://kaiverx.github.io/static_site_2/static/Nunu/Nunu_0.jpg" class="d-block w-100 image" alt="не найдено">
+                                <figcaption class="text3"><div><a href="https://kaiverx.github.io/static_site_2/Nunu">Nunu and Willump</a></div></figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="text1"> 
+                    Добро пожаловать на мой веб-сайт, где я представляю вам три уникальных героя из <a href="https://kaiverx.github.io/static_site_2/glossary#LoL">League of Legend</a> : 
+                    <a href="https://kaiverx.github.io/static_site_2/Kayn">Каина</a>, <a href="https://kaiverx.github.io/static_site_2/Malzahar">Мальзахара</a> и забавного дуэта <a href="https://kaiverx.github.io/static_site_2/Nunu">Нуну с Виллумпом</a>. Отправьтесь в захватывающее путешествие, исследуя их историю и уникальные способности.
+                </div>
+                <div class="text4">
+                    <ul>
+                        <li><a href="https://kaiverx.github.io/static_site_2/Kayn">Каин</a> Танец с Тьмой:</li>
+                        <div>Встречайте<a href="https://kaiverx.github.io/static_site_2/Kayn">Каина</a>, повелителя Тьмы, чья темная 
+                            сущность поглощает врагов. Его уникальные способности позволяют ему манипулировать Тьмой, предоставляя игрокам уникальный опыт в битве.
+                        </div>
+                        <li><a href="https://kaiverx.github.io/static_site_2/Malzahar">Мальзахар</a> Хранитель Пустоты:</li>
+                        <div>Мальзахар – подданный Пустоты, чей разум умело управляет мистическими силами. Откройте для себя его 
+                            таинственные способности и погрузитесь в мир, где Пустота встречает магию.
+                        </div>
+                        <li><a href="https://kaiverx.github.io/static_site_2/Nunu">Нуну с Виллумп</a> Леденящие сердца:</li>
+                        <div>Смех и леденящие метки – <a href="https://kaiverx.github.io/static_site_2/Nunu">Нуну с Виллумп</a>, непревзойденные хулиганы из Фрельйорда. Разблокируйте их игровые моменты, в
+                            которых холод и веселье идут рука об руку.</div>
+                    </ul>
+                </div>
+                <div class="text1">
+                    Исследуйте Миры Героев
+                </div>
+                <div class="text1">
+                    Каждая страница посвящена герою и раскрывает их истории и, конечно же, уникальные способности. 
+                    Откройте для себя, как эти персонажи работают в <a href="https://kaiverx.github.io/static_site_2/glossary#LoL">Лиге Легенд</a>, и подготовьтесь к погружению в их увлекательные приключения.
+                </div>
+            </div>
+        </div>
+    </div>
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+        crossorigin="anonymous">
+    </script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>
